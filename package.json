@@ -8,7 +8,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "jest --forceExit --detectOpenHandles"
   },
   "dependencies": {
     "axios": "latest",
@@ -16,5 +17,8 @@
   },
   "engines": {
     "node": ">=14"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
   }
 }
